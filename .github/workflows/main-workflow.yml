@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: build
       run: gcc -Wall -Wextra -o testchecker *.c
-      run: gcc -Wall -Wextra -o colorpair *.h
+      run: gcc -Wall -Wextra -o colorpair *.c
       
     - name: run
       run: ./testchecker
