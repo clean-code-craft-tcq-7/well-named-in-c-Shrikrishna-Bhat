@@ -3,8 +3,6 @@
 #include <assert.h>
 #include "colorpair.h"
 
-int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
-
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
