@@ -30,6 +30,7 @@ void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorC
 }
 
 int main() {
+    ColorPair colorPair;
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
