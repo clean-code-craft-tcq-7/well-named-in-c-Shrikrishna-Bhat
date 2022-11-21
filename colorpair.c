@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "colorpair.h"
+int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
         MajorColorNames[colorPair->majorColor],
