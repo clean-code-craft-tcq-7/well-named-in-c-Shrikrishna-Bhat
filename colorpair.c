@@ -23,10 +23,10 @@ void printColorPair(enum MajorColor major, enum MinorColor minor)
     for(i=1;i<26;i++)
     {
         printf("%d ",i);
-        for(j=0;i<5;i++)
+        for(j=0;j<5;j++)
         {
             //printf("%d ",j);
-            for(k=0;j<5;j++)
+            for(k=0;k<5;k++)
             {
                 //printf("%d ",k);
             }
