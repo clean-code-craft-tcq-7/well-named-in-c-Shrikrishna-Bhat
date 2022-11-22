@@ -37,5 +37,6 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
     printColorPair(colorPair.majorColor, colorPair.minorColor);
+    for(int i=0,colorPair.majorColor = WHITE;i<5;i++)
     return 0;
 }
