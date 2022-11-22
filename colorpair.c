@@ -25,7 +25,7 @@ void printColorPair(enum MajorColor major, enum MinorColor minor)
         printf("%d ",i);
         for(j=0;i<numberOfMinorColors;i++)
         {
-            printf("%d ",j)
+            printf("%d ",j);
             for(k=0;j<numberOfMinorColors;j++)
             {
                 printf("%d ",k);
