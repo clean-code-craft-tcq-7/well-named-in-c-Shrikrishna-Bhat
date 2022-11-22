@@ -20,7 +20,7 @@ void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected
 void printColorPair(enum MajorColor major, enum MinorColor minor)
 {
     int i,j,k;
-    for(i=0;i<25;i++)
+    for(i=1;i<26;i++)
     {
         printf("%d ",i);
         for(j=0;i<numberOfMinorColors;i++)
