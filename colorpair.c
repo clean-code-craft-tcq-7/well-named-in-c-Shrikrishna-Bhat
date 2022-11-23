@@ -17,7 +17,7 @@ void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected
     assert(pairNumber == expectedPairNumber);
 }
 
-void printColorPair(enum MajorColor major, enum MinorColor minor)
+/*void printColorPair(enum MajorColor major, enum MinorColor minor)
 {
     int i,j,k;
     for(i=1;i<26;i++)
@@ -32,4 +32,4 @@ void printColorPair(enum MajorColor major, enum MinorColor minor)
             }
         }
     }
-}
+}*/
