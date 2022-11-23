@@ -4,7 +4,7 @@
 #include "colorpair.h"
 
 int main() {
-    ColorPair colorPair;
+    //ColorPair colorPair;
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
